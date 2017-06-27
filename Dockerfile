@@ -1,4 +1,4 @@
-FROM adamculp/php-code-quality:latest
+FROM hussainweb/php-code-quality:latest
 
 WORKDIR $TARGET_DIR
 
