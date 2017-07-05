@@ -11,7 +11,8 @@ RUN apt-get install -y nodejs && \
     npm i -g stylelint && \
     npm i -g stylelint-checkstyle-formatter && \
     npm i -g stylelint-config-standard && \
-    npm i -g stylelint-no-browser-hacks
+    npm i -g stylelint-no-browser-hacks && \
+    npm i -g stylelint-scss
 
 RUN composer require --prefer-dist "drupal/coder:dev-8.x-2.x" && \
     git clone http://git.drupal.org/sandbox/coltrane/1921926.git drupalsecure && \
